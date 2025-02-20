@@ -24,21 +24,34 @@
 ## Contents
 
 - [Platforms](#platforms)
-- [Companies](#companies)
-- [Uncategorized](#uncategorized)
+- [Tools](#tools)
+- [Features](#features)
 - [Related](#related)
 
 ## Platforms
 
-- [Platform](#platforms) - Name of the platform
+- [Social Media & Networking](#social-media-&-networking)
 
-## Companies
+## Tools
 
-- [Company](#companies) - Name of the company
+- [Uncategorized tools](#uncategorized-tools)
 
-## Uncategorized
+## Features
 
-- [Feature/Tool](#) - All uncategorized feature and tool wishlists on GitHub.
+- [Uncategorized features](#uncategorized-features)
+
+## Social Media & Networking
+
+- [X](https://github.com/unameit10000000/wishlist-x)
+- [Reddit](https://github.com/unameit10000000/wishlist-reddit)
+
+## Uncategorized tools
+
+- [Tool xyz](#)
+
+## Uncategorized features
+
+- [Feature xyz](#)
 
 ## Related
 
