@@ -1,10 +1,8 @@
 <div align="center">
-    <div>
-        <span style="font-size: 64px; margin-right: 10px;">📜</span>
-        <p style="font-weight: bold; font-size: 48px;">
-            Wishlist
-        </p>
-    </div>
+	<img width="360" height="360" src="media/logo.svg" alt="Wishlist">
+	<br>
+	<br>
+	<br>
 </div>
 <p align="center">
 	<a href="wishlist.md">What is a wishlist?</a>&nbsp;&nbsp;&nbsp;
