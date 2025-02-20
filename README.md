@@ -1,6 +1,9 @@
 <div align="center">
-	<img width="360" height="360" src="media/logo.svg" alt="Wishlist">
+	<img width="96" height="96" src="media/logo.svg" alt="Wishlist">
 	<br>
+	<br>
+	<h1>Wishlist</h1>
+	<p>The Pre-Awesome List</p>
 	<br>
 	<br>
 </div>
@@ -41,6 +44,7 @@
 
 - [Awesome](https://github.com/sindresorhus/awesome) - The main Awesome repository on GitHub.
 
+<br>
 <br>
 <br>
 <br>
