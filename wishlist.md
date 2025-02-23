@@ -1,5 +1,10 @@
 # The Wishlist Manifesto
 
+Wishlists are filling a gap in the open source ecosystem by creating a standardized way to propose and track feature ideas that don't have a natural "home" in existing projects:
+```
+Web → Scattered Wishes → Wishlist → Implementation → Awesome
+```
+
 If you want your idea to be included in this wishlist, try to only include genuinely innovative and feasible concepts. This is a curated collection of thoughtful proposals, not a dumping ground for random ideas.
 
 But **what makes a good wishlist item?**
@@ -10,7 +15,29 @@ Research if your proposed feature or tool could actually be developed with curre
 
 ## Wishlist badge
 
-Comming soon.
+This badge is for Wishlists.
+
+[![Wishlist](https://unameit10000000.github.io/wishlist/media/badge.svg)](https://wishlist.sh)
+
+```md
+[![Wishlist](https://unameit10000000.github.io/wishlist/media/badge.svg)](https://wishlist.sh)
+```
+
+Add this wishlist badge to the top of your list, right next to the title.\
+Alternatively include it in an 'a' tag, for example:
+
+```
+<a href="https://wishlist.sh">
+    <img src="https://unameit10000000.github.io/wishlist/media/badge.svg" alt="Wishlist">
+</a>
+```
+
+
+
+
+You are allowed to use the badge on lists not included here and also on private lists.
+
+*The badges should not be modified in any way.*
 
 ## Explain why it should exist
 

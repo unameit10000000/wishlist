@@ -15,8 +15,9 @@
     - Simply commenting "looks good" does not count
     - Comment here which proposals you reviewed
 - [ ] This pull request has a title in the format `Propose Name of Feature/Tool`.
-    - ✅ `Propose Cross-Platform Package Manager`
-    - ✅ `Propose Universal Code Translator`
+    - ✅ `propose: Cross-Platform Package Manager`
+    - ✅ `propose: Universal Code Translator`
+    - ❌ `Propose Universal Code Translator`
     - ❌ `Update readme.md`
     - ❌ `Add new idea`
     - ❌ `New feature proposal`
