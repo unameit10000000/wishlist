@@ -1,7 +1,0 @@
-markdown: GFM
-title: Wishlist
-theme: jekyll-theme-minimal
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
