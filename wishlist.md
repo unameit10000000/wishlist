@@ -17,10 +17,10 @@ Research if your proposed feature or tool could actually be developed with curre
 
 This badge is for Wishlists.
 
-[![Wishlist](https://unameit10000000.github.io/wishlist/media/badge.svg)](https://wishlist.sh)
+[![Wishlist](https://badge.wishlist.sh)](https://wishlist.sh)
 
 ```md
-[![Wishlist](https://unameit10000000.github.io/wishlist/media/badge.svg)](https://wishlist.sh)
+[![Wishlist](https://badge.wishlist.sh)](https://wishlist.sh)
 ```
 
 Add this wishlist badge to the top of your list, right next to the title.\
@@ -28,7 +28,7 @@ Alternatively include it in an 'a' tag, for example:
 
 ```
 <a href="https://wishlist.sh">
-    <img src="https://unameit10000000.github.io/wishlist/media/badge.svg" alt="Wishlist">
+    <img src="https://badge.wishlist.sh" alt="Wishlist">
 </a>
 ```
 
