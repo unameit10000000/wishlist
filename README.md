@@ -48,6 +48,7 @@
 ## Uncategorized tools
 
 - [Tool xyz](#)
+- [Cross-Platform Package Manager](#)
 
 ## Uncategorized features
 
