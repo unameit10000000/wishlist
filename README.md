@@ -53,6 +53,7 @@
 
 - [Feature xyz](#)
 - [Faster Cross-Platform Package Manager](#)
+- [Nicer Cross-Platform Package Manager](#)
 
 ## Related
 
