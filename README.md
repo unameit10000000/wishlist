@@ -52,6 +52,7 @@
 ## Uncategorized features
 
 - [Feature xyz](#)
+- [Faster Cross-Platform Package Manager](#)
 
 ## Related
 
