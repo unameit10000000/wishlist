@@ -30,15 +30,15 @@
 
 ## Existing Platforms
 
-- [Add](create-list.md) 📜
+- [Add](contributing.md) 📜
 
 ## Proposed Tools
 
-- [Add](create-list.md) 📜
+- [Add](contributing.md) 📜
 
 ## Related
 
-- [Add](create-list.md) 📜
+- [Add](contributing.md) 📜
 
 ## Contributing
 
