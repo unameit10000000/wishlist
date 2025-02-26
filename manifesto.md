@@ -1,6 +1,6 @@
 # The Wishlist Manifesto
 
-A wishlist, also called a 'Pre-Awesome' list, is a curated collection of feature and tool proposals (wishes), which may also include references to other related wishlists, each containing its own set of wishes. The wishlist follows an RFC-inspired approach in structuring the proposal formats for these wishes.
+A wishlist, also called a 'Pre-Awesome' list, is a collection of feature and tool proposals (wishes), which may also include references to other related wishlists, each containing its own set of wishes. The wishlist follows an RFC-inspired approach in structuring the proposal formats for these wishes.
 
 ```
 Web → Scattered Wishes → Wishlist → Wish → Feature/Tool → Implementation → Awesome
