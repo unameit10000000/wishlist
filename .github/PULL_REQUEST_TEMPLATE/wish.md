@@ -29,7 +29,12 @@
     - ❌ `Propose Universal Code Translator`
     - ❌ `New feature idea`
     - ❌ `Update readme.md`
-- [ ] Label your pull request with `wish`
+- [ ] Make the pull request:
+    - There are two options:
+        1. Copy this whole section into the pull request's description section and fill in the template
+        2. Automatically get this template using the url below, and than fill in the template:
+        - **Update** 'target-username', 'target-wishlist', 'your-username' in this url and paste it into the browser: `https://github.com/<target-username>/<target-wishlist>/compare/main...<your-username>:<target-wishlist>:main?template=wish.md`
+- [ ] If possible, label your pull request with `wish`
 - [ ] The suggested Wish complies with the below requirements👇
 
 ## Requirements for your Wish

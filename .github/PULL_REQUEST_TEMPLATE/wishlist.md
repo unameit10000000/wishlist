@@ -37,7 +37,12 @@
 - [ ] Your entry should be added at the bottom of the appropriate category.
 - [ ] The title of your entry should be title-cased and the URL to your list should end in `#readme`.
 	- Example: `- [Wishlist](https://github.com/unameit10000000/wishlist#readme) - The Pre-Awesome List.`
-- [ ] Label your pull request with `wishlist`
+- [ ] Make the pull request:
+    - There are two options:
+        1. Copy this whole section into the pull request's description section and fill in the template
+        2. Automatically get this template using the url below, and than fill in the template:
+        - **Update** 'target-username', 'target-wishlist', 'your-username' in this url and paste it into the browser: `https://github.com/<target-username>/<target-wishlist>/compare/main...<your-username>:<target-wishlist>:main?template=wishlist.md`
+- [ ] If possible, label your pull request with `wishlist`
 - [ ] The suggested Wishlist complies with the below requirements👇
 
 
