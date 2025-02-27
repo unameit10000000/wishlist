@@ -8,23 +8,22 @@ OLD_GIST_ID="a660a242dcbef241f7b04e507d7c8431"
 GITHUB_USERNAME="<your-username>"
 GITHUB_TOKEN="<your-access-token>"
 
+# Create a timestamp for directory and filename
+TIMESTAMP=$(date '+%Y%m%d_%H%M%S')
+NEW_FILENAME="_wish-$TIMESTAMP.md"
+CLONE_DIR="gist-$OLD_GIST_ID-$TIMESTAMP"
+
 # Clone the original Gist
 echo "Cloning the original Gist..."
-git clone $OLD_GIST_URL gist-$OLD_GIST_ID
-cd gist-$OLD_GIST_ID || exit 1
+git clone $OLD_GIST_URL $CLONE_DIR
+cd $CLONE_DIR || exit 1
 
-# Create a timestamp
-TIMESTAMP=$(date '+%Y%m%d_%H%M%S')
-NEW_FILENAME="wish-$TIMESTAMP.md"
-
-# Find and rename the wish file
-WISH_FILE=$(find . -name "*wish*.md" | head -1)
-if [ -n "$WISH_FILE" ]; then
-    echo "Found $WISH_FILE - renaming to $NEW_FILENAME"
-    mv "$WISH_FILE" "$NEW_FILENAME"
+# Find and rename only the _wish.md file
+if [ -f "_wish.md" ]; then
+    echo "Found _wish.md - renaming to $NEW_FILENAME"
+    mv "_wish.md" "$NEW_FILENAME"
 else
-    echo "Error: No wish file found."
-    exit 1
+    echo "Warning: _wish.md file not found."
 fi
 
 # Check if renaming was successful
@@ -33,7 +32,7 @@ if [ ! -f "$NEW_FILENAME" ]; then
     exit 1
 fi
 
-# Read file content (not strictly needed as we'll use the actual file for the API)
+# Read file content
 CONTENT=$(cat "$NEW_FILENAME")
 
 # Remove Git history
@@ -49,7 +48,7 @@ echo "Note: If you see authentication errors, make sure to update GITHUB_USERNAM
 # Create a temporary JSON file for the request
 cat > gist_request.json << EOL
 {
-  "description": "Cloned from: $OLD_GIST_ID",
+  "description": "Cloned from gist $OLD_GIST_ID using 'wish_clone'.",
   "public": false,
   "files": {
     "$NEW_FILENAME": {
@@ -73,7 +72,7 @@ rm gist_request.json response.json
 
 # Commit and push
 git add .
-git commit -m "Cloned from Gist: $OLD_GIST_ID"
+git commit -m "Cloned from gist $OLD_GIST_ID using 'wish_clone'."
 git remote add origin https://gist.github.com/$NEW_GIST_ID.git
 git push -u origin main -f
 
