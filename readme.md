@@ -30,15 +30,15 @@
 
 ## Existing Platforms
 
-- [Add](contributing.md) 📜
+- [Add](contributing.md)
 
 ## Proposed Tools
 
-- [Add](contributing.md) 📜
+- ⭐ [Idea To Wish Proposal Builder](https://gist.github.com/unameit10000000/b86317c7800e7a54b11a53769510ef04) - A tool that automatically converts simple user ideas into fully structured wish proposals following the Wishlist framework.
 
 ## Related
 
-- [Add](contributing.md) 📜
+- [Add](contributing.md)
 
 ## Contributing
 
