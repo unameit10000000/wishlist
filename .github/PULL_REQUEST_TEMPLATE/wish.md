@@ -29,6 +29,19 @@
     - ❌ `Propose Universal Code Translator`
     - ❌ `New feature idea`
     - ❌ `Update readme.md`
+- [ ] Your wish entry should include:
+    - A [funding indicator](#funding-status) badge.
+    - A title matching the `Name of feature/tool` of both your PR title and _wish.md heading.
+    - A clear, objective description. First character uppercase, ending with a period. Describe what it proposes, not vague aspirations.
+    - ✅ `🏆 - [Universal Package Manager](…) - Cross-platform tool for managing dependencies across different programming languages.`
+    - ✅ `💰 - [Code Translator](…) - Tool that automatically converts code between programming languages while preserving functionality.`
+    - ❌ `- [Universal Package Manager](…) - A collection of ideas to make package management better.`
+    - ❌ `- [Code Translator](…) - Various translation features and improvements.`
+    - ❌ `- [Code Translator](…)`
+
+- [ ] Your wish entry should be added at the bottom of the appropriate category.
+- [ ] The title of your wish should be title-cased and the URL to your wish should link to the correct gist file.
+	- Example: `- [Universal Package Manager](https://gist.github.com/username/gistid) - Cross-platform tool for managing dependencies across different programming languages.`
 - [ ] Make the pull request.
     - There are two options:
         1. Copy this whole section into the pull request's description section and fill in the template
@@ -65,14 +78,8 @@
 - [ ] Links to the relevant wish proposal file.
 - [ ] Mentions related projects that are being developed as a result of the wish (if any). This can be updated later on.
 - [ ] Include the author and maintainer of the Wish. Not to confuse with the authors and maintainers of related projects.
-- [ ] Has a funding status (🏆💰💎🎁🌱⭐).
+- [ ] Has a funding status (🏆💰💎🎁🌱⭐). See the [funding indicators](#funding-status) section.
 - [ ] Specifies details about the funding status using the following formatting tips:
-    - For grants: "Available via [Provider - Grant Name/ID](link)". 
-    - For bounties: "Available on [Platform](link) for [specific issues/features]". 
-    - For sponsorship: "Sponsored by [Company/Organization](link)". 
-    - For donations: "Support us via [Platform1](link), [Platform2](link)". 
-    - For seeking funding: "Looking for [type of funding] to support [specific goal]". 
-    - Leave empty if no funds are needed.
 
 ### The wish-propose-(feature/tool).md file
 
@@ -125,6 +132,19 @@ Each wish uses one of the status badges below.
 | [![Status](https://img.shields.io/badge/Status-On%20Hold-yellow)](https://github.com/project-user/project-name) | Temporarily paused |
 | [![Status](https://img.shields.io/badge/Status-Stopped-red)](https://github.com/project-user/project-name) | Development discontinued |
 | [![Status](https://img.shields.io/badge/Status-Rejected-orange)](https://github.com/project-user/project-name) | Not feasible or unwanted |
+
+## Funding Indicators
+
+Each wish includes one of the funding status badges below.
+
+| Icon | Type | Description |
+|:-----|:-----|:------------|
+| 🏆 | Grants | "Available via [Provider - Grant Name/ID](link)" |
+| 💰 | Bounties | "Available on [Platform](link) for [specific issues/features]" |
+| 💎 | Sponsorship | "Sponsored by [Company/Organization](link)" |
+| 🎁 | Donations | "Support us via [Platform1](link), [Platform2](link)" |
+| 🌱 | Seeking Funding | "Looking for [type of funding] to support [specific goal]" |
+| ⭐ | No Funds Needed | Leave empty if no funds are needed |
 
 ## Important note
 
