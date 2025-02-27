@@ -33,8 +33,8 @@
     - A [funding indicator](#funding-status) badge.
     - A title matching the `Name of feature/tool` of both your PR title and _wish.md heading.
     - A clear, objective description. First character uppercase, ending with a period. Describe what it proposes, not vague aspirations.
-    - ✅ `🏆 - [Universal Package Manager](…) - Cross-platform tool for managing dependencies across different programming languages.`
-    - ✅ `💰 - [Code Translator](…) - Tool that automatically converts code between programming languages while preserving functionality.`
+    - ✅ `- 🏆 [Universal Package Manager](…) - Cross-platform tool for managing dependencies across different programming languages.`
+    - ✅ `- 💰 [Code Translator](…) - Tool that automatically converts code between programming languages while preserving functionality.`
     - ❌ `- [Universal Package Manager](…) - A collection of ideas to make package management better.`
     - ❌ `- [Code Translator](…) - Various translation features and improvements.`
     - ❌ `- [Code Translator](…)`
