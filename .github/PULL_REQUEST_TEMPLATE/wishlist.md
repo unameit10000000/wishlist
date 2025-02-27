@@ -36,8 +36,13 @@
     - ❌ `- [Google Cloud](…)`
 - [ ] Your entry should be added at the bottom of the appropriate category.
 - [ ] The title of your entry should be title-cased and the URL to your list should end in `#readme`.
-	- Example: `- [Wishlist](https://github.com/unameit10000000/wishlist#readme) - The Pre-Awesome List.`
-- [ ] Label your pull request with `wishlist`
+	- Example: `- [Wishlist](https://github.com/unameit10000000/wishlist#readme) - The Pre-Awesome List`.
+- [ ] Make the pull request.
+    - There are two options:
+        1. Copy this whole section into the pull request's description section and fill in the template.
+        2. Automatically get this template using the url below, and than fill in the template:
+            - **Update** 'target-username', 'target-wishlist', 'your-username' in this url and paste it into the browser: `https://github.com/<target-username>/<target-wishlist>/compare/main...<your-username>:<target-wishlist>:main?template=wishlist.md`.
+- [ ] If possible, label your pull request with `wishlist`.
 - [ ] The suggested Wishlist complies with the below requirements👇
 
 
@@ -47,9 +52,9 @@
 
 - [ ] The default branch should be named [`main`, not `master`](https://www.zdnet.com/article/github-to-replace-master-with-alternative-term-to-avoid-slavery-references/).
 - [ ] **The repo name must strictly follow the lowercase slug format `wishlist-name-of-(platform/domain)`. There are no exceptions. "wishlist" must always come first, and the name must be in lowercase with hyphens.**
-- [ ] There are to distinct repository types:
-    - Platforms: `wishlist-name-of-platform` (feature proposals)
-    - Domains: `wishlist-name-of-domain` (tool proposals)
+- [ ] There are two distinct repository types:
+    - Platforms: `wishlist-name-of-platform` (feature proposals).
+    - Domains: `wishlist-name-of-domain` (tool proposals).
     - For example:
         - ✅ `wishlist-swift`
         - ❌ `swift-wishlist`
@@ -68,18 +73,18 @@
 
 ### Content
 
-- [ ] The heading title should be in [title case](https://capitalizemytitle.com/) format and include both "Wishlist" and the platform/domain name in the either order. However it is adviced to keep the strict order of the repo name, to keep things clean:
+- [ ] The heading title should be in [title case](https://capitalizemytitle.com/) format and include both "Wishlist" and the platform/domain name in the either order. However it is adviced to keep the strict order of the repo name, to keep things clean.
     - ✅ # Wishlist Swift (best)
     - ✅ # Swift Wishlist (not matching order of repo name)
     - ✅ # Wishlist Game Development (best)
     - ✅ # Game Development Wishlist (not matching order of repo name)
     - ❌ # wishlist-swift (Must be in title case)
     - ❌ # SwiftWishlist (No combining words)
-- [ ] Includes the [Wishlist badge](https://github.com/unameit10000000/wishlist/blob/main/wishlist.md#wishlist-badge)
+- [ ] Includes the [Wishlist badge](https://github.com/unameit10000000/wishlist/blob/main/wishlist.md#wishlist-badge).
 	- Should be placed on the right side of the readme heading.
-		- Can be placed centered if the list has a centered graphics header
+		- Can be placed centered if the list has a centered graphics header.
     - Should link back to this list.
-- [ ] Includes a succinct description of the platform or domain at the top of the readme:
+- [ ] Includes a succinct description of the platform or domain at the top of the readme.
     - ✅ `Mobile operating system for Apple phones and tablets.`
     - ✅ `Cross-platform cloud infrastructure provider.`
     - ❌ `Collection of feature requests for iOS.`
@@ -92,20 +97,20 @@
 	- **The image should be high-DPI.** Set it to a maximum of half the width of the original image.
 	- Don't include both a title saying `Wishlist X` and a logo with `Wishlist X`. You can put the header image in a `#` (Markdown header) or `<h1>`.
 - [ ] Entries have a description, unless the title is descriptive enough by itself. It rarely is though.
-- [ ] Has a Table of Contents named `Contents`
+- [ ] Has a Table of Contents named `Contents`.
 	- Should be named `Contents`, not `Table of Contents`.
 	- Should be the first section in the list.
     - Should only have one level of [nested lists](https://commonmark.org/help/tutorial/10-nestedLists.html), preferably none.
 	- Must not feature `Contributing` or `Footnotes` sections.
-- [ ] Has appropriate content sections:
-    - For Platforms: A 'Features' section for feature wishes categorized by type
+- [ ] Has appropriate content sections.
+    - For Platforms: A 'Features' section for feature wishes categorized by type.
     - For Domains: A 'Proposed Tools' section containing:
-        - Related subdomain names, linking to domain-related lists
-        - Tool wishes categorized by purpose (if possible)
+        - Related subdomain names, linking to domain-related lists.
+        - Tool wishes categorized by purpose (if possible).
 - [ ] Each existing platform entry includes:
-    - [ ] Clear title and link to the list (Repo)
+    - [ ] Clear title and link to the list (Repo).
 - [ ] Each proposed tool entry includes:
-    - [ ] Clear title and link to either a list (Repo) or wish (Gist)
+    - [ ] Clear title and link to either a list (Repo) or wish (Gist).
 
 ### General
 
