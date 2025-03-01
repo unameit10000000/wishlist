@@ -36,6 +36,8 @@
 
 - ⭐ [Idea To Wish Proposal Builder](https://gist.github.com/unameit10000000/b86317c7800e7a54b11a53769510ef04) - A tool that automatically converts simple user ideas into fully structured wish proposals following the Wishlist framework.
 
+- 💰 [Headless Frontend Error Catcher](https://gist.github.com/unameit10000000/db090b32907838aa94bbdd83a6260012) - An open-source tool that runs web pages headlessly, capturing console output and detecting blank pages to catch runtime issues.
+
 ## Related
 
 - [Add](contributing.md)
