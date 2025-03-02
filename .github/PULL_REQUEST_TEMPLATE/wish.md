@@ -78,7 +78,7 @@
 - [ ] Links to the relevant wish proposal file.
 - [ ] Mentions related projects that are being developed as a result of the wish (if any). This can be updated later on.
 - [ ] Include the author and maintainer of the Wish. Not to confuse with the authors and maintainers of related projects.
-- [ ] Has a funding status (🏆💰💎🎁🌱⭐). See the [funding indicators](#funding-status) section.
+- [ ] Has a funding status (🏆💰💎🎁🌱⭐⏳). See the [funding indicators](#funding-status) section.
 - [ ] Specifies details about the funding status using the following formatting tips:
 
 ### The wish-propose-(feature/tool).md file
@@ -145,6 +145,7 @@ Each wish includes one of the funding status badges below.
 | 🎁 | Donations | "Support us via [Platform1](link), [Platform2](link)" |
 | 🌱 | Seeking Funding | "Looking for [type of funding] to support [specific goal]" |
 | ⭐ | No Funds Needed | Leave empty if no funds are needed |
+| ⏳ | To Be Decided | Leave empty untill it has been decided |
 
 ## Important note
 
