@@ -38,7 +38,7 @@
 
 - 💰 [Headless Frontend Error Catcher](https://gist.github.com/unameit10000000/db090b32907838aa94bbdd83a6260012) - An open-source tool that runs web pages headlessly, capturing console output and detecting blank pages to catch runtime issues.
 
-- ⏳ [Simple Content Management System](https://gist.github.com/unameit10000000/db090b32907838aa94bbdd83a6260012) - An extremely lightweight and headless CMS designed to bridge the gap between developers and non-technical users
+- ⏳ [Simple Content Management System](https://gist.github.com/unameit10000000/d279adbfb33428c860cb89739a9e755b) - An extremely lightweight and headless CMS designed to bridge the gap between developers and non-technical users
 
 ## Related
 
